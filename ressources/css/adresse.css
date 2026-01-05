@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Open Sans" ;
+  src: url(../fonts/OpenSans-Regular-webfont.woff);
+}
+
+@font-face {
+  font-family: "Open Sans Bold" ;
+  src: url(../fonts/OpenSans-Bold-webfont.woff); 
+  font-weight:bold;
+}
+
+.bulle {
+  position: relative;
+  margin-bottom: 6.25rem;
+}
+
+.bulle-icone.vert {
+  background-color: #5af413;
+}
+
+.bulle-icone-bordure.vert{
+  background-color: #056a11;
+}
+
+body {
+  margin: 1.25rem;
+}
+
+.site {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.site:hover {
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.375rem 0.625rem rgba(0, 0, 0, 0.15);
+}
+
+.site-image {
+  margin-right: 1.25rem;
+  width: 7.5rem;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 0.0625rem solid #ddd;
+}
+
+.site h3 {
+  margin: 0 0 0.625rem;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.site p {
+  margin: 0.3125rem 0;
+  font-size: 0.9rem;
+}
+
+.site a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

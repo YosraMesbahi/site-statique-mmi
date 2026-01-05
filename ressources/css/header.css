@@ -1,0 +1,31 @@
+.navigation-principale {
+    padding: 0.625rem 0rem;
+}
+
+.navigation-principale ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation-principale ul li {
+    display: inline-block;
+    margin: 0rem 0.938rem;
+}
+
+/* Style des liens */
+.navigation-principale a {
+    text-decoration: none;
+    color:black; 
+    font-size: 1.125rem;
+    padding: 0.625rem 0.938rem;
+    border-radius: 0.313rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol des liens */
+.navigation-principale a:hover,
+.navigation-principale a:focus {
+    background-color: #d8d8d9; 
+    transform: scale(1.05); 
+}
+

@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Open Sans" ;
+  src: url(../fonts/OpenSans-Regular-webfont.woff);
+}
+
+@font-face {
+  font-family: "Open Sans Bold" ;
+  src: url(../fonts/OpenSans-Bold-webfont.woff); 
+  font-weight:bold;
+}
+
+.bulle {
+  position: relative;
+  margin-bottom: 6.25rem;
+}
+
+.bulle-icone.bleu {
+  background-color:#012A37;
+}
+
+.bulle-icone-bordure.bleu {
+  background-color:#C9C9C9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.25rem;
+  width: 90%;
+  max-width: 75rem;
+  margin: 0 auto; /* Centre le conteneur horizontalement */
+  overflow: hidden; /* Cache les débordements éventuels */
+}
+
+.section {
+  display: contents;
+}
+
+.text {
+grid-column: span 8;
+top: 46rem;
+left: 54.5rem;
+width: 31rem;
+height: 2.5625rem;
+}
+
+.text h2 {
+justify-content: baseline !important;
+font: normal normal bold 2.25rem/3.0625rem Open Sans;
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
+.text p {
+top: 41.6875rem;
+left: 20.125rem;
+width: 80.125rem;
+height: 3.375rem;
+text-align: left;
+font: normal normal normal 1.25rem/1.6875rem Open Sans;
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
+.text p strong {
+top: 6.75rem;
+left: 0;
+width: 45.1875rem;
+height: 1.6875rem;
+text-align: left;
+font: normal normal bold 1.25rem/1.6875rem Open Sans;
+letter-spacing: 0;
+color: #000000;
+}
+
+.image {
+top: 46rem;
+left: 20rem;
+width: 32.625rem;
+height: 27.1875rem;
+background:0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.section:nth-child(1) .text {   
+top: 79.5625rem;
+left: 20rem;
+width: 45.5rem;
+height: 10.125rem;
+text-align: left;
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
+.section:nth-child(2) .text {
+grid-column: 5/ span 10; 
+display: flex;
+flex-direction: column;
+justify-content:baseline; 
+margin-top: -4.375rem;
+  margin-left:-11.875rem
+}
+
+.section:nth-child(2) .image {
+grid-column: 1 / span 4; 
+margin-top: -4.375rem;
+}
+
+.section:nth-child(3) .text {
+  grid-column: span 8;
+}
+
+.section:nth-child(3) .image {
+grid-column: 9/ span 4;
+margin-left: -10.625rem;
+}
+
+.section:nth-child(4) .text {
+  grid-column: 5 / span 8;
+}
+
+.section:nth-child(4) .image {
+  grid-column: 1 / span 4;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+gap: 1.25rem;
+width: 90%;
+max-width: 75rem;
+}
+
+.section {
+display: contents;
+}
+
+.text {
+grid-column: span 8;
+}
+
+.text h2 {
+font: normal normal bold 2.25rem/3.063rem Open Sans;
+color: #000000;
+opacity: 1;
+}
+
+.text p {
+text-align: left;
+font: normal normal normal 1.25rem/1.688rem Open Sans;
+color: #000000;
+}
+
+.text p strong {
+font: normal normal bold 1.25rem/1.688rem Open Sans;
+color: #000000;
+}
+
+.image {
+width: 32.625rem;
+height: 27.188rem;
+opacity: 1;
+}
+
+.section:nth-child(2) .text {
+grid-column: 7 / span 10;
+display: flex;
+flex-direction: column;
+justify-content: baseline;
+margin-top: -70px;
+}
+
+.section:nth-child(2) .image {
+grid-column: 1 / span 4;
+margin-top: -70px;
+}
+
+.section:nth-child(3) .text {
+grid-column: span 8;
+}
+
+.section:nth-child(3) .image {
+grid-column: 9 / span 4;
+margin-left: -170px;
+}
+
+.section:nth-child(4) .text {
+grid-column: 5 / span 8;
+}
+
+.section:nth-child(4) .image {
+grid-column: 1 / span 4;
+}

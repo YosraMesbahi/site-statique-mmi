@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Open Sans" ;
+    src: url(../fonts/OpenSans-Regular-webfont.woff);
+  }
+
+  @font-face {
+    font-family: "Open Sans Bold" ;
+    src: url(../fonts/OpenSans-Bold-webfont.woff); 
+    font-weight:bold;
+  }
+
+footer{
+    display:flex; 
+    align-items:center; 
+    background-color:white; 
+    padding : 0.625rem 1.25rem; 
+    justify-content:center; 
+}
+
+.logo-cy{
+    max-width: 6.875rem; 
+    height: auto; 
+    margin-right:1.25rem; 
+
+}
+
+.texte-footer{
+    font-family:"Open Sans"; 
+    font-size: 1.25rem; 
+    color: #707070; 
+    text-decoration:none; 
+}
+
+.liens{
+    font-family:"Open Sans"; 
+    font-size: 1.25rem; 
+    color: #0066FF; 
+    text-decoration :none;  
+}
+
+.liens:hover{
+    font-family:"Open Sans"; 
+    font-size: 1.25rem; 
+    color: #0066FF; 
+    text-decoration :underline; 
+}

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Open Sans" ;
+    src: url(../fonts/OpenSans-Regular-webfont.woff);
+  }
+
+  @font-face {
+    font-family: "Open Sans Bold" ;
+    src: url(../fonts/OpenSans-Bold-webfont.woff); 
+    font-weight:bold;
+  }
+
+.bulle {
+    position: relative;
+    margin-bottom: 6.25rem;
+  }
+  
+  .bulle-icone.rouge {
+    background-color:#EB0706;
+  }
+  
+  .bulle-icone-bordure.rouge {
+    background-color:#A50253;
+  }
+
+.video-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(37.5rem, 1fr));
+    gap: 1.25rem;
+    padding: 0.625rem;
+}
+
+.conteneur-principal h2 {
+    top: 38.4375rem !important;
+    left: 20rem;
+    width: 49.75rem;
+    height: 9.1875rem;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal bold 2.25rem/3.0625rem Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.video-grid-1 p {
+    top: 48.5625rem;
+    left: 20rem;
+    width: 23.25rem;
+    height: 2.0625rem;
+    text-align: center;
+    font: normal normal normal 1.5rem/2.0625rem Open Sans;
+    letter-spacing: 0px;
+    color: #4F4F4F;
+    opacity: 1;
+}
+
+.video-grid-1 iframe {
+    top: 50.375rem;
+    left: 20rem;
+    width: 37.5rem;
+    height: 24.3125rem;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.video-grid-2 p {
+    top: 48.5625rem;
+    left: 61.1875rem;
+    width: 21.25rem;
+    height: 2.0625rem;
+    text-align: left;
+    font: normal normal normal 1.5rem/2.0625rem Open Sans;
+    letter-spacing: 0px;
+    color: #4F4F4F;
+    opacity: 1;
+}
+
+.video-grid-2 iframe {
+    top: 50.4375rem;
+    left: 61.1875rem;
+    width: 37.5rem;
+    height: 24.1875rem;
+    background: transparent url('img/Image 4.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.video-grid-3 p {
+    top: 79.625rem;
+    left: 20rem;
+    width: 38.25rem;
+    height: 2.0625rem;
+    text-align: left;
+    font: normal normal normal 1.5rem/2.0625rem Open Sans;
+    letter-spacing: 0px;
+    color: #4F4F4F;
+    opacity: 1;
+}
+
+.video-grid-3 iframe {
+    top: 81.6875rem;
+    left: 20rem;
+    width: 37.5rem;
+    height: 24.125rem;
+    background: transparent url('img/Image 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.video-grid-4 p {
+    top: 79.625rem;
+    left: 61.1875rem;
+    width: 35.6875rem;
+    height: 2.0625rem;
+    text-align: left;
+    font: normal normal normal 1.5rem/2.0625rem Open Sans;
+    letter-spacing: 0px;
+    color: #4F4F4F;
+    opacity: 1;
+}
+
+.video-grid-4 iframe {
+    top: 81.6875rem;
+    left: 61.1875rem;
+    width: 37.5rem;
+    height: 24.25rem;
+    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;   
+}
+
+.university-logo img {
+    max-width: 6.875rem; 
+    margin-right: 1.25rem; 
+}
+
+.footer-content {
+    color: gray;
+    border-left: 0.125rem solid #ccc;
+    padding-left: 1.25rem;   
+}
+
+.footer-content p {  
+    margin: 0.3125rem 0; 
+}
+
+.footer-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;   
+}
